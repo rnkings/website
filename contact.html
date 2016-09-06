@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Rose's Site
+        </title>
+        <meta charset="utf-8">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/styles.css" rel="stylesheet">
+    </head>
+    <body id="indexContact">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <img alt="Rose Logo" src="assets/img/roselogo.png" title="Rose Logo"> <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <!--<a class="navbar-brand" id="color:white;" href="#">Rose's Site</a>-->
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav" id="navitems">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="programming.html">Programming</a>
+                    </li>
+                    <li>
+                        <a href="art.html">Art</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" id="navitems">
+                    <li>
+                        <a href="https://www.linkedin.com/in/rose-koenings-7310aab6"><img src="assets/img/linkedin.png"></a>
+                    </li>
+                    <li id="emailIcon">
+                        <a href="mailto:rnkings.05@gmail.com"><img src="assets/img/email.png"></a>
+                    </li>
+                    <li>
+                        <span class="empty"></span>
+                    </li>
+                    <li></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </nav>
+        <div class="container">
+            <div class="starter-template">
+                <div class="banner" id="wrapper">
+                    <form role="form" id="form">
+                            <div>
+                                <label class="label">First Name:</label> <input class="firstName" type="first" value="First Name">
+                            </div>
+                            <div>
+                                <label class="label">Last Name:</label> <input class="lastName" type="last" value="Last Name">
+                                </div>
+                            <div>
+                                <label class="label"> Your Email:</label> <input class="email" type="email" value="user@gmail.com">
+                            </div>
+                            <div>
+                                <label class="label">Questions:</label> <input class="questions" type="questions">
+                            </div>
+                            <div>
+                                <button class="btn btn-default" id="submitForm" type="submit"><a href="mailto:rnkings.05@gmail.com">Submit</a></button>
+                        </div>
+                    </form>
+                    <nav class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
+                        <p id="footerText">
+                            copyright 2016 &copy; Rose Koenings
+                        </p>
+                    </nav>
+                </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+            </script> 
+            <script src="assets/js/bootstrap.min.js">
+            </script> 
+        </div>
+    </body>
+</html>

@@ -1,0 +1,412 @@
+/*HOME PAGE STYLES*/
+
+.helloText{
+    color:white;
+    font-size: 30px;
+    font-family: 'Quando', serif;
+    margin:0 auto;
+    margin-top: 180px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+
+.button {
+    -webkit-box-shadow:rgba(0,0,0,0.5) 0 1px 0 0;
+    -moz-box-shadow:rgba(0,0,0,0.5) 0 1px 0 0;
+    box-shadow:rgba(0,0,0,0.5) 0 1px 0 0;
+    border-bottom-color:#444547;
+    border:1px solid #444547;
+    background-color:#5457bd;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    color:#898A8C;
+    font-family: 'Quando', serif;
+    font-size:18px;
+    text-shadow:#898A8C 0 1px 0;
+    margin:0 auto;
+    max-width:100%;
+    display:block;
+}
+
+
+.buttonText{
+    color:#9da0ba;
+    font-size: 120%;
+
+}
+
+#submit{
+    position: inline;
+    margin:0 auto;
+    margin-top: 50px;
+
+}
+
+#me{
+    display: inline;
+    max-width: 300px;
+    width:100%;
+    position: absolute;
+    bottom:0;
+    right:0;
+    z-index: -1;
+}
+
+#periwinkle {
+    color: #5457bd;
+    font-family: 'Quando', serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+#orange {
+    color: #ff741b;
+    font-family: 'Quando', serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+
+#teal {
+    color: #1cbbb4;
+    font-family: 'Quando', serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+#purple {
+    color: #8560a8;
+    font-family: 'Quando', serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+#green {
+    color: #3cb878;
+    font-family: 'Quando', serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+
+#yellow {
+    color: #ffff00;
+    font-family: 'Quando', serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+#pink {
+    color: #ec008c;
+    font-family: 'Quando', serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+#red {
+    color: #ff0000;
+    font-family: 'Quando', serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: -2px 4px 10px #000;
+}
+
+
+.elementToFadeInAndOut {
+    display: none;
+}
+
+.elementToFadeInAndOut.active {
+    display: block;
+}
+
+#indexBody{
+    background-color: black;
+    background-image: url("../img/doubleGold.png");
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+
+#footerText{
+    float:right;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+#emailIcon{
+    padding-right:12px;
+}
+
+/*PROGRAMMING PAGE STYLES*/
+#blurHackathon{
+    padding-bottom: 10px;
+}
+
+
+
+.hackathonsHeaderText{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+    width:100%;
+    color:white;
+    text-shadow: -2px 4px 10px #000;
+}
+
+#hackathonsHeaderSpacing{
+/*    padding-top: 110px;*/
+    padding-top:12%;
+    padding-left:5%;
+/*    padding-left: 30px;*/
+/*    padding-bottom: 0px;*/
+}
+
+.hackathonsImagineIf{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    width:100%;
+    color:#339bc4;
+    text-shadow: -2px 4px 10px #000;
+}
+
+#hackathonsImagineIfSpacing{
+    padding-left: 5%;
+/*    padding-top: 20px;
+    padding-left: 10px;*/
+}
+
+.bodyFont{
+    color:white;
+    text-shadow: -2px 4px 10px #000;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    padding: 0% 5% 0% 5%;
+    margin-bottom: 20%;
+}
+
+/*some default styles to make each box visible*/
+.box{
+    color:white;
+    font-size:40px;
+    text-align: center;
+    text-shadow:4px 4px 0 rgba(0,0,0,.1);
+    padding:10px;
+    width:3;
+    flex:1;
+
+}
+
+.HTML{
+    color:#3498db;
+    text-shadow: -2px 4px 10px #000;
+    flex:1;
+    padding-top:80px;
+}
+.JSON{
+    color:#5457bd;
+    text-shadow: -2px 4px 10px #000;
+    margin-top: 200px
+}
+.CSS{
+    color:#f1c40f;
+    text-shadow: -2px 4px 10px #000;
+    padding-top:20px;
+}
+.JavaScript{
+    color:#ff741b;
+    text-shadow: -2px 4px 10px #000;
+    padding-top:160px;
+}
+.jQuery{
+    color:#1cbbb4;
+    text-shadow: -2px 4px 10px #000;
+    padding-top:110px;
+}
+
+/*We start writing out flexbox here.  The above is just page setup*/
+.containerFlexBox{
+    margin-top:15%;
+    display:flex;
+    align-items:flex-start;
+}
+
+#indexProgramming{
+    background-color: #041a21;
+    background-image: url("../img/groot.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+}
+
+
+/*ART PAGE STYLES*/
+
+/*might want to change margin on this to center things*/
+.my_carousel{
+    position: relative;
+    width:750px;
+    background-color: #fff;
+    margin:30px auto 0px auto;
+/*  padding-bottom:5px;*/
+
+}
+
+/*might want to change margin on this to center things*/
+.carousel_container{
+    height: 340px;
+    margin-top: 10%;
+    background-color: #134764;
+    background: url("../img/background.jpg") no-repeat 0px 0px;
+
+
+}
+/*aka the stem*/
+.caption_container {
+/*    width: 435px;
+    margin: 0px 0px 100px 165px;
+    padding: 0px 0px 20px 20px;
+    border-left: 3px solid #713e1b;*/
+}
+
+#stem{
+/*  width: 435px;
+    margin: 0px 0px 100px 165px;
+    padding: 0px 0px 20px 20px;*/
+    border-left: 3px solid #713e1b;
+    margin-top: -18px;
+    padding: 18px 0 0 20px;
+}
+
+/*roundabout plug in*/
+#carousel{
+    margin: 0px auto 0px auto;
+    width: 620px;
+    height: 270px;
+}
+
+/*target all the images that are in the carousel id div*/
+#carousel img{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+
+}
+
+#captions { 
+    width: 435px;
+    margin: 0px 0px 100px 165px;
+    padding: 0px 0px 20px;
+    margin-top: 20px;
+/*    border-left: 3px solid #713e1b;*/
+
+}
+
+#captions h2 {
+    margin-left: 20px;
+}
+
+/*arrows*/
+.nextItem{
+    position: absolute;
+    top: 230px;
+    left:0px;
+    z-index:1001;
+    cursor: pointer;
+}
+
+.prevItem{
+    position: absolute;
+    top: 230px;
+    right:0px;
+    z-index: 1002;
+    cursor: pointer;
+}
+
+.carousel_data {
+    display: none;
+}
+
+.leaves{ 
+    position: absolute; 
+    top: 280px; 
+    left: 102px; 
+    z-index:1003;
+    margin-top: 20px;
+}
+
+#indexArt{
+    background-color: #134764;
+    background-image: url("../img/blueTexture.png");
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+
+/*CONTACT PAGE STYLES*/
+
+#indexContact{
+    background-color: #0b1d2d;
+    background-image: url("../img/charmTest.png");
+    background-size: cover;
+/*    background-repeat: no-repeat;*/
+    width:100%;
+    height:100%;
+}
+
+#form{
+    margin:0 auto;
+    margin-top: 180px;
+    text-align: center;
+
+}
+
+.firstName{
+    width:200px;
+    margin-bottom: 2%;
+
+}
+
+.lastName{
+    width:200px;
+    margin-bottom: 2%;
+
+
+}
+
+.questions{
+    width:200px;
+    margin-bottom: 2%;
+/*    margin-right: 46px;*/
+
+
+}
+
+.email{
+    width:200px;
+    margin-bottom: 2%;
+/*    margin-left:32px;*/
+
+
+}
+
+.label{
+    display:inline-block;
+    min-width:100px;
+    color:white;
+    text-shadow: -2px 4px 10px #000;
+    font-size: 15px;
+    margin-right:15px;
+}
+
+
+

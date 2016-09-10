@@ -3,13 +3,12 @@
 .helloText{
     color:white;
     font-size: 30px;
-    font-family: 'Quando', serif;
+    font-family: serif;
     margin:0 auto;
     margin-top: 180px;
     text-align: center;
     text-shadow: -2px 4px 10px #000;
 }
-
 
 .button {
     -webkit-box-shadow:rgba(0,0,0,0.5) 0 1px 0 0;
@@ -22,7 +21,7 @@
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
     color:#898A8C;
-    font-family: 'Quando', serif;
+    font-family: serif;
     font-size:18px;
     text-shadow:#898A8C 0 1px 0;
     margin:0 auto;
@@ -30,18 +29,16 @@
     display:block;
 }
 
-
 .buttonText{
     color:#9da0ba;
     font-size: 120%;
-
 }
 
 #submit{
     position: inline;
     margin:0 auto;
     margin-top: 50px;
-
+    font-family: serif;
 }
 
 #me{
@@ -54,78 +51,25 @@
     z-index: -1;
 }
 
-#periwinkle {
-    color: #5457bd;
-    font-family: 'Quando', serif;
-    font-size:30px;
+@media(max-width:900px){
+    #me{
+        position:initial;
+        display: block;
+        text-align: center;
+        margin:0 auto;
+        width: 50%;
+        margin-top: 40px;
+    }
+}
+
+#elementToFadeInAndOut {
+    color: white;
     text-align: center;
-    text-shadow: -2px 4px 10px #000;
+    font-size: 30px;
+    font-family: serif;
 }
 
-#orange {
-    color: #ff741b;
-    font-family: 'Quando', serif;
-    font-size:30px;
-    text-align: center;
-    text-shadow: -2px 4px 10px #000;
-}
-
-
-#teal {
-    color: #1cbbb4;
-    font-family: 'Quando', serif;
-    font-size:30px;
-    text-align: center;
-    text-shadow: -2px 4px 10px #000;
-}
-
-#purple {
-    color: #8560a8;
-    font-family: 'Quando', serif;
-    font-size:30px;
-    text-align: center;
-    text-shadow: -2px 4px 10px #000;
-}
-
-#green {
-    color: #3cb878;
-    font-family: 'Quando', serif;
-    font-size:30px;
-    text-align: center;
-    text-shadow: -2px 4px 10px #000;
-}
-
-
-#yellow {
-    color: #ffff00;
-    font-family: 'Quando', serif;
-    font-size:30px;
-    text-align: center;
-    text-shadow: -2px 4px 10px #000;
-}
-
-#pink {
-    color: #ec008c;
-    font-family: 'Quando', serif;
-    font-size:30px;
-    text-align: center;
-    text-shadow: -2px 4px 10px #000;
-}
-
-#red {
-    color: #ff0000;
-    font-family: 'Quando', serif;
-    font-size:30px;
-    text-align: center;
-    text-shadow: -2px 4px 10px #000;
-}
-
-
-.elementToFadeInAndOut {
-    display: none;
-}
-
-.elementToFadeInAndOut.active {
+#elementToFadeInAndOut.active {
     display: block;
 }
 
@@ -152,10 +96,8 @@
     padding-bottom: 10px;
 }
 
-
-
 .hackathonsHeaderText{
-    font-family: 'Libre Baskerville', serif;
+    font-family: serif;
     font-size: 60px;
     width:100%;
     color:white;
@@ -163,15 +105,26 @@
 }
 
 #hackathonsHeaderSpacing{
-/*    padding-top: 110px;*/
-    padding-top:12%;
+    padding-top:10%;
     padding-left:5%;
-/*    padding-left: 30px;*/
-/*    padding-bottom: 0px;*/
+}
+
+@media(max-width:670px){
+    #hackathonsHeaderSpacing{
+    padding-top:20%;
+    padding-left:5%;
+    }
+}
+
+@media(max-width:550px){
+    #hackathonsHeaderSpacing{
+    padding-top:30%;
+    padding-left:5%;
+    }
 }
 
 .hackathonsImagineIf{
-    font-family: 'Libre Baskerville', serif;
+    font-family: serif;
     font-size: 30px;
     width:100%;
     color:#339bc4;
@@ -180,29 +133,39 @@
 
 #hackathonsImagineIfSpacing{
     padding-left: 5%;
-/*    padding-top: 20px;
-    padding-left: 10px;*/
 }
 
 .bodyFont{
     color:white;
     text-shadow: -2px 4px 10px #000;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 25px;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
     padding: 0% 5% 0% 5%;
     margin-bottom: 20%;
 }
 
-/*some default styles to make each box visible*/
 .box{
     color:white;
+    font-family: serif;
     font-size:40px;
     text-align: center;
     text-shadow:4px 4px 0 rgba(0,0,0,.1);
     padding:10px;
     width:3;
     flex:1;
+}
 
+@media(max-width:670px){
+    .box{
+    font-family: serif;    
+    color:white;
+    font-size:20px;
+    text-align: center;
+    text-shadow:4px 4px 0 rgba(0,0,0,.1);
+    padding:10px;
+    width:3;
+    flex:1;
+    }
 }
 
 .HTML{
@@ -210,33 +173,94 @@
     text-shadow: -2px 4px 10px #000;
     flex:1;
     padding-top:80px;
+    font-family: serif;
+}
+
+@media(max-width:670px){
+    .HTML{
+    color:#3498db;
+    text-shadow: -2px 4px 10px #000;
+    flex:1;
+    padding-top:80px;
+    font-family: serif;
+    }
 }
 .JSON{
     color:#5457bd;
     text-shadow: -2px 4px 10px #000;
-    margin-top: 200px
+    margin-top: 200px;
+    font-family:serif;
+
+}
+
+@media(max-width:670px){
+    .JSON{
+        color:#5457bd;
+        text-shadow: -2px 4px 10px #000;
+        margin-top: 120px;
+        font-family: serif;
+    }
 }
 .CSS{
     color:#f1c40f;
     text-shadow: -2px 4px 10px #000;
     padding-top:20px;
+    font-family: serif;
 }
+
+@media(max-width:670px){
+    .CSS{
+        color:#f1c40f;
+        text-shadow: -2px 4px 10px #000;
+        padding-top: 20px;
+        font-family:serif;
+    }
+}
+
 .JavaScript{
     color:#ff741b;
     text-shadow: -2px 4px 10px #000;
     padding-top:160px;
+    font-family: serif;
+}
+@media(max-width:670px){
+    .JavaScript{
+        color:#ff741b;
+        text-shadow: -2px 4px 10px #000;
+        padding-top: 140px;
+        font-faily:serif;
+    }
 }
 .jQuery{
     color:#1cbbb4;
     text-shadow: -2px 4px 10px #000;
     padding-top:110px;
+    font-family: serif;
 }
 
-/*We start writing out flexbox here.  The above is just page setup*/
+@media(max-width:670px){
+    .jQuery{
+        color:#1cbbb4;
+        text-shadow: -2px 4px 10px #000;
+        padding-top: 70px;
+        font-family:serif;
+    }
+}
+
 .containerFlexBox{
     margin-top:15%;
     display:flex;
     align-items:flex-start;
+    width:100%;
+}
+
+@media(max-width:670px){
+    .containerFlexBox{
+    margin-top:15%;
+    display:flex;
+    align-items:flex-start;
+    width:100%;
+    }
 }
 
 #indexProgramming{
@@ -248,74 +272,78 @@
     height:100%;
 }
 
-
 /*ART PAGE STYLES*/
 
-/*might want to change margin on this to center things*/
 .my_carousel{
     position: relative;
-    width:750px;
+    width:100%;
+    max-width:750px;
     background-color: #fff;
     margin:30px auto 0px auto;
-/*  padding-bottom:5px;*/
-
 }
 
-/*might want to change margin on this to center things*/
 .carousel_container{
     height: 340px;
+    width:100%;
     margin-top: 10%;
     background-color: #134764;
     background: url("../img/background.jpg") no-repeat 0px 0px;
-
-
 }
-/*aka the stem*/
+
 .caption_container {
-/*    width: 435px;
-    margin: 0px 0px 100px 165px;
-    padding: 0px 0px 20px 20px;
-    border-left: 3px solid #713e1b;*/
+    width:100%;
+    max-width:435px;
 }
 
 #stem{
-/*  width: 435px;
-    margin: 0px 0px 100px 165px;
-    padding: 0px 0px 20px 20px;*/
     border-left: 3px solid #713e1b;
     margin-top: -18px;
     padding: 18px 0 0 20px;
+    width:100%;
 }
 
-/*roundabout plug in*/
+@media(max-width:635px){
+    #stem{
+    border-left: 0px;
+    margin-top: -18px;
+    padding: 18px 0 0 20px;
+    width:100%;
+    }
+}
+
 #carousel{
     margin: 0px auto 0px auto;
-    width: 620px;
+    width:100%;
     height: 270px;
 }
 
-/*target all the images that are in the carousel id div*/
 #carousel img{
     width: 300px;
     height: 300px;
     cursor: pointer;
-
 }
 
 #captions { 
-    width: 435px;
+    width:100%;
     margin: 0px 0px 100px 165px;
     padding: 0px 0px 20px;
     margin-top: 20px;
-/*    border-left: 3px solid #713e1b;*/
+}
 
+@media(max-width:635px){
+    #captions{
+    width:100%;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 20px;
+    margin-top: 20px;
+    }
 }
 
 #captions h2 {
     margin-left: 20px;
+    width:100%;
 }
 
-/*arrows*/
 .nextItem{
     position: absolute;
     top: 230px;
@@ -334,6 +362,7 @@
 
 .carousel_data {
     display: none;
+    width:100%;
 }
 
 .leaves{ 
@@ -342,6 +371,12 @@
     left: 102px; 
     z-index:1003;
     margin-top: 20px;
+}
+
+@media(max-width:635px){
+    .leaves{
+    display:none;
+    }
 }
 
 #indexArt{
@@ -358,7 +393,6 @@
     background-color: #0b1d2d;
     background-image: url("../img/charmTest.png");
     background-size: cover;
-/*    background-repeat: no-repeat;*/
     width:100%;
     height:100%;
 }
@@ -367,46 +401,43 @@
     margin:0 auto;
     margin-top: 180px;
     text-align: center;
+}
 
+@media(max-width:635px){
+    #form{
+    margin:0 auto;
+    text-align:center;
+    margin-top:200px;
+    }
 }
 
 .firstName{
     width:200px;
     margin-bottom: 2%;
-
 }
 
 .lastName{
     width:200px;
     margin-bottom: 2%;
-
-
 }
 
 .questions{
     width:200px;
     margin-bottom: 2%;
-/*    margin-right: 46px;*/
-
-
 }
 
 .email{
     width:200px;
     margin-bottom: 2%;
-/*    margin-left:32px;*/
-
-
 }
 
-.label{
+.labelForm{
     display:inline-block;
     min-width:100px;
     color:white;
     text-shadow: -2px 4px 10px #000;
-    font-size: 15px;
-    margin-right:15px;
+    font-size: 18px;
+    margin-right:20px;
+    font-family: serif;
 }
-
-
 

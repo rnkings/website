@@ -13,6 +13,7 @@ $(document).ready(function(){
 function createCarousel(){
 	console.log('Create carousel');
 	$('div#carousel').roundabout({
+		responsive:true,
 		childSelector:'img', 
 		tilt:-4.5,
 		minOpacity:1,

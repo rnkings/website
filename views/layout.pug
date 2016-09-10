@@ -1,0 +1,44 @@
+block defineBodyClass
+
+doctype html
+html(lang='en')
+  head
+    title
+      | Rose's Site
+    meta(charset='utf-8')
+    block extraResources
+    link(href='assets/css/bootstrap.min.css', rel='stylesheet')
+    link(href='assets/css/styles.css', rel='stylesheet')
+  body(id=bodyClass)
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      .navbar-header
+        img(alt='Rose Logo', src='assets/img/roselogo.png', title='Rose Logo')
+        button.navbar-toggle.collapsed(aria-controls='navbar', aria-expanded='false', data-target='#navbar', data-toggle='collapse', type='button')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      #navbar.collapse.navbar-collapse
+        ul#navitems.nav.navbar-nav
+          li(class=(page == 'index' ? 'active' : ''))
+            a(href='/') Home
+          li(class=(page == 'programming' ? 'active' : ''))
+            a(href='/programming') Programming
+          li(class=(page == 'art' ? 'active' : ''))
+            a(href='/art') Art
+          li(class=(page == 'contact' ? 'active' : ''))
+            a(href='/contact') Contact
+        ul#navitems.nav.navbar-nav.navbar-right
+          li
+            a(href='https://www.linkedin.com/in/rose-koenings-7310aab6/', target='_blank')
+              img(src='assets/img/linkedin.png')
+          li#emailIcon
+            a(href='mailto:rnkings.05@gmail.com')
+              img(src='assets/img/email.png')
+      // /.nav-collapse
+    div.content.container-fluid
+      block content
+      nav#footer.navbar.navbar-inverse.navbar-fixed-bottom
+        p#footerText
+          | copyright 2016 © Rose Koenings
+    block scripts

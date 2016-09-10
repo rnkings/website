@@ -1,0 +1,38 @@
+extends layout.pug
+
+block defineBodyClass
+  - var bodyClass = 'indexProgramming';
+
+block scripts
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+  script(src='assets/js/bootstrap.min.js')
+
+block extraResources
+  link(href='assets/css/animate.css',rel='stylesheet')
+
+block content
+  .containerFlexBox
+    .box.HTML.animated.fadeInDown
+      | HTML
+    .box.JSON.animated.bounceInLeft
+      | JSON
+    .box.CSS.animated.rotateIn
+      | CSS
+    .box.JavaScript.animated.tada
+      | JavaScript
+    .box.jQuery.animated.bounceInUp
+      | jQuery
+  #blurHackathon
+    p#hackathonsHeaderSpacing.hackathonsHeaderText
+      | Hackathons
+    p#hackathonsImagineIfSpacing.hackathonsImagineIf
+      | Imagine if it could be more than a hobby...
+    hr
+    p.bodyFont
+      | In my free time I participate in hackathons with my friends.  We have won 2nd place for an anxiety app and 3rd place for a video game. I've mostly been the creative, being in charge of art and ideas for the projects. 
+      br
+      br
+      |                             I've found great joy in being able bring my ideas to life. Watching my teammates code games and apps made me curious of what else I could do. Soon I decided to go to DevCodeCamp and further my interest.
+      br
+      br
+      |                             At devCodeCamp I have been able to learn several different languages: HTML, CSS, JavaScript, JSON, jQuery and more.  These languages have become the roots of my knowlege, they connect to each other and with time I can grow the possbilities of what I can achieve.

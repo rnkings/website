@@ -1,0 +1,21 @@
+extends layout.pug
+
+block defineBodyClass
+  - var bodyClass = 'indexBody';
+
+block content
+  .starter-template
+    #wrapper.banner
+      p.helloText
+        | Hello, my name is Rose~Noelle
+        br
+        | I am...
+      #elementToFadeInAndOut  
+      button#submit.button(type='submit')
+        a.buttonText(href='assets/img/roseResume.pdf', target='_blank') Resume
+    img#me(alt='me', src='assets/img/meWithThePearlEarring.png', title='me')
+
+block scripts
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+  script(src='assets/js/bootstrap.min.js')
+  script(src='assets/js/index.js')

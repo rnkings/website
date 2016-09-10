@@ -1,0 +1,26 @@
+extends layout.pug
+
+block defineBodyClass
+  - var bodyClass = 'indexContact';
+
+block scripts
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+  script(src='assets/js/bootstrap.min.js')
+
+block content
+  form#form(role='form')
+    div
+      label.labelForm First Name:
+      input.firstName(type='first', value='First Name')
+    div
+      label.labelForm Last Name:
+      input.lastName(type='last', value='Last Name')
+    div
+      label.labelForm  Your Email:
+      input.email(type='email', value='user@gmail.com')
+    div
+      label.labelForm Questions:
+      input.questions(type='questions')
+    div
+      button#submitForm.btn.btn-default(type='submit')
+        a(href='mailto:rnkings.05@gmail.com') Submit

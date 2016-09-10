@@ -1,0 +1,94 @@
+extends layout.pug
+
+block scripts
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+  script(src='assets/js/jquery.roundabout-modified.js', type='text/javascript')
+  script(src='assets/js/art.js', type='text/javascript')
+  script(src='assets/js/bootstrap.min.js')
+
+block defineBodyClass
+  - var bodyClass = 'indexArt';
+
+block content
+  .my_carousel
+    .carousel_container
+      #carousel
+      img.nextItem(src='assets/img/arrow_left.png')
+      img.prevItem(src='assets/img/arrow_right.png')
+    .caption_container
+      #captions
+      img.leaves(src='assets/img/leaves.png')
+      .carousel_data
+        // begin items
+        // Item
+        .carousel_item
+          .image
+            img(alt='teapot_blue', src='assets/img/carouselMeWithThePearlEarring.png')
+          .caption
+            h2
+              | Me
+            p#stem
+              | Girl with the Pearl Earring is a famous painting from the renaissance period. I created this image in Adobe Photoshop. This image can also been seen on the home page of this site. I edited the brush strokes and color in Adobe Illustrator.
+        // Item
+        .carousel_item
+          .image
+            img(alt='teapot_iron', src='assets/img/carouselTypewriter.png')
+          .caption
+            h2
+              | Typewriter
+            p#stem
+              | The Typewriter icon I created was made for my final project, Writer's Block. Instead of using five gold stars, people will be able to rate completed prompts with five gold typewriters. I made this image in Adobe Illustrator.
+          // Item
+        .carousel_item
+          .image
+            img(alt='teapot_blue', src='assets/img/carouselRoseLogo.png')
+          .caption
+            h2
+              | Rose Logo
+            p#stem
+              | I created the rose logo for this website in adobe Illustrator.
+        // Item
+        .carousel_item
+          .image
+            img(alt='teapot_orange', src='assets/img/carouselPinda.png')
+          .caption
+            h2
+              | Pinda
+            p#stem
+              | Pinda is a logo I created for someone else's side project. We collobrated and several versions were made before the final you see above was approved. This logo was made in Adobe Illustrator.
+        // Item
+        .carousel_item
+          .image
+            img(alt='teapot_green', src='assets/img/carouselBackBusinessCard.png')
+          .caption
+            h2
+              | Business Card
+            p#stem
+              | I enjoy the creative process of coming up with an idea and bringing that idea to life. I designed own business cards and used Adobe Illustrator to create the rose image on the back of the card.
+        // Item
+        .carousel_item
+          .image
+            img(alt='teapot_clay', src='assets/img/carouselRocketFox.png')
+          .caption
+            h2
+              | Rocket Fox
+            p#stem
+              | Rocket Fox was an early project for me. I got into web development by going to hackathons. The first team I was on was made the game, Rocket Fox, in Love 2D. I created this background for the game as well as a flying bunny image in Adobe Illustrator.
+        // Item
+        .carousel_item
+          .image
+            img(alt='teapot_steel', src='assets/img/carouselKai.png')
+          .caption
+            h2
+              | Kai
+            p#stem
+              | One of the side projects I'm working on is a promotional website for the book I'm writing. Kai is one of the main characters. I created his image in Adobe Illustrator.
+        // Item
+        .carousel_item
+          .image
+            img(alt='teapot_green', src='assets/img/carouselRoots.png')
+          .caption
+            h2
+              | Roots
+            p#stem
+              | These roots are another image you can see on this website. I created this image in Adobe Illustrator.

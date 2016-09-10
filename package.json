@@ -1,0 +1,23 @@
+{
+  "name": "mywebsite",
+  "version": "0.1.0",
+  "description": "Rose's website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnkings/website.git"
+  },
+  "author": "Rose-Noelle Koenings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnkings/website/issues"
+  },
+  "homepage": "https://github.com/rnkings/website#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^0.1.0"
+  }
+}
